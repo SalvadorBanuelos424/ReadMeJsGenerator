@@ -62,7 +62,6 @@ function generateMarkdown(input) {
   ## Usage
   ${input.usage}
 
-  ## License
   ${renderLicenseSection(input.license)}
 
   ## Contribution
