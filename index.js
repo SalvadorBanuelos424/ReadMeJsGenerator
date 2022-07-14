@@ -34,7 +34,7 @@ const questions = () => {
         },
         { // installation
             type: 'input',
-            name: "Installation",
+            name: "installation",
             message: "Provide the steps for a proper installation.",
             validate: installationInput => {
                 if (installationInput) {
@@ -95,7 +95,7 @@ const questions = () => {
         },    
         { // github
             type: 'input',
-            name: "githubName",
+            name: "github",
             message: "What is your Github username?",
             validate: githubInput => {
                 if (githubInput) {
